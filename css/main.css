@@ -23,11 +23,21 @@ body {
 
 .jumbotron {
   margin: 0;
-  overflow: hidden;
 }
 
 .jumbotron .image {
   max-width: 100%;
+}
+
+.scroll-fix::before {
+  display: block;
+  margin-top: -83.35px;
+  height: 83.35px;
+  content: '';
+}
+
+.visibility {
+  visibility: hidden;
 }
 
 nav {
