@@ -83,6 +83,10 @@ nav .fixed-top {
   left: 0;
 }
 
+nav .shadow-bg {
+  background-color: #323436;
+}
+
 header {
   color: #F2EDE4;
   overflow: hidden;
