@@ -15,6 +15,50 @@ body {
   background-color: #333;
 }
 
+.wrapper {
+  max-width: 2556px;
+  width: 80%;
+  margin: auto;
+}
+
+.jumbotron {
+  margin: 0;
+}
+
+nav {
+  -webkit-transition: background-color .5s;
+  transition: background-color .5s;
+  text-transform: uppercase;
+}
+
+nav a, nav i {
+  color: #F2EDE4;
+  -webkit-transition: color .6s;
+  transition: color .6s;
+  font-size: 130%;
+}
+
+nav a:hover {
+  color: #A62B1F;
+}
+
+nav i {
+  padding: 10px;
+}
+
+nav .navbar-brand {
+  font-weight: bold;
+}
+
+nav .navbar-brand img {
+  margin-top: 10px;
+  max-width: 100px;
+}
+
+nav .active {
+  color: #a79ea2;
+}
+
 header {
   color: #F2EDE4;
   overflow: hidden;
@@ -66,5 +110,9 @@ header .hero-text {
 header .hero-text p {
   padding: 10px;
   font-size: 14px;
+}
+
+#aboutus .fit-image {
+  max-width: 100%;
 }
 /*# sourceMappingURL=main.css.map */
