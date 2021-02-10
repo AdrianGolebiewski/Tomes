@@ -38,9 +38,11 @@ nav {
 
 nav a, nav i {
   color: #F2EDE4;
+  text-decoration: none;
   -webkit-transition: color .6s;
   transition: color .6s;
   font-size: 130%;
+  font-weight: bold;
 }
 
 nav a:hover {
@@ -48,7 +50,7 @@ nav a:hover {
 }
 
 nav i {
-  padding: 10px;
+  padding: 30px;
 }
 
 nav .navbar-brand {
@@ -62,6 +64,12 @@ nav .navbar-brand img {
 
 nav .active {
   color: #a79ea2;
+}
+
+nav .fixed-top {
+  top: 100px;
+  right: 0;
+  left: 0;
 }
 
 header {
