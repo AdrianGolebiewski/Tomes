@@ -23,6 +23,11 @@ body {
 
 .jumbotron {
   margin: 0;
+  overflow: hidden;
+}
+
+.jumbotron .image {
+  max-width: 100%;
 }
 
 nav {
