@@ -44,6 +44,7 @@ nav {
   -webkit-transition: background-color .5s;
   transition: background-color .5s;
   text-transform: uppercase;
+  margin: 0% 10% 0;
 }
 
 nav a, nav i {
