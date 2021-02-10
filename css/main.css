@@ -48,11 +48,11 @@ nav {
 }
 
 nav a, nav i {
-  color: #F2EDE4;
+  color: #32b96a;
   text-decoration: none;
   -webkit-transition: color .6s;
   transition: color .6s;
-  font-size: 130%;
+  font-size: 100%;
   font-weight: bold;
 }
 
@@ -74,7 +74,7 @@ nav .navbar-brand img {
 }
 
 nav .active {
-  color: #a79ea2;
+  color: #26ee0c;
 }
 
 nav .fixed-top {
@@ -109,7 +109,7 @@ header .hero-img {
 }
 
 header .hero-text {
-  color: #e6e6e6fd;
+  color: #f7f7f7fd;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
