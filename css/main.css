@@ -12,7 +12,7 @@ html {
 body {
   position: relative;
   font-family: 'Montserrat', sans-serif;
-  background-color: #be9797;
+  background-color: #272727;
 }
 
 .wrapper {
@@ -48,7 +48,7 @@ nav {
 }
 
 nav a, nav i {
-  color: #32b96a;
+  color: red;
   text-decoration: none;
   -webkit-transition: color .6s;
   transition: color .6s;
@@ -57,7 +57,7 @@ nav a, nav i {
 }
 
 nav a:hover {
-  color: #A62B1F;
+  color: #ada7a6;
 }
 
 nav i {
@@ -74,7 +74,7 @@ nav .navbar-brand img {
 }
 
 nav .active {
-  color: #26ee0c;
+  color: #5917f3;
 }
 
 nav .fixed-top {
@@ -88,7 +88,7 @@ nav .fixed-top {
 }
 
 header {
-  color: #F2EDE4;
+  color: #791919;
   overflow: hidden;
 }
 
@@ -102,7 +102,8 @@ header .hero-img {
   position: relative;
   height: 100vh;
   background-image: url(/img/bydgoszcz-418818_1920.jpg);
-  background-position: center;
+  background-position: 0px 0px;
+  -webkit-filter: brightness(90%);
   background-size: cover;
   background-attachment: fixed;
   z-index: 0;
@@ -123,13 +124,13 @@ header .hero-text {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 100%;
+  height: 68%;
   text-align: center;
 }
 
 header .hero-text p {
   padding: 10px;
-  font-size: 14px;
+  font-size: 24px;
 }
 
 #aboutus .fit-image {
