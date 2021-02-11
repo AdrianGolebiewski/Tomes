@@ -1,0 +1,5 @@
+{
+    "html.format.wrapLineLength": 80,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
+}
