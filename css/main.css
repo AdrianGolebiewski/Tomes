@@ -44,7 +44,8 @@ nav {
   -webkit-transition: background-color .5s;
   transition: background-color .5s;
   text-transform: uppercase;
-  margin: 0% 10% 0;
+  max-width: 100%;
+  margin: 0%;
 }
 
 nav a, nav i {
@@ -78,7 +79,8 @@ nav .active {
 }
 
 nav .fixed-top {
-  top: 100px;
+  position: fixed;
+  top: 0;
   right: 0;
   left: 0;
 }
@@ -92,10 +94,11 @@ header {
   overflow: hidden;
 }
 
-header h1 {
+header h1, header btn {
   padding: 10px;
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 10px;
+  color: #000000;
 }
 
 header .hero-img {
@@ -103,7 +106,8 @@ header .hero-img {
   height: 100vh;
   background-image: url(/img/bydgoszcz-418818_1920.jpg);
   background-position: 0px 0px;
-  -webkit-filter: brightness(90%);
+  -webkit-filter: brightness(75%);
+          filter: brightness(75%);
   background-size: cover;
   background-attachment: fixed;
   z-index: 0;
@@ -124,13 +128,18 @@ header .hero-text {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 68%;
+  height: 98%;
   text-align: center;
 }
 
+header .hero-text h1 {
+  font-size: 20px;
+  width: 20%;
+}
+
 header .hero-text p {
-  padding: 10px;
-  font-size: 24px;
+  padding: 15px;
+  font-size: 14px;
 }
 
 #aboutus .fit-image {

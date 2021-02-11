@@ -37,8 +37,9 @@ body
 nav 
     transition:  background-color .5s
     text-transform: uppercase
-
-    margin: 0% 10% 0 
+    
+    max-width: 100%
+    margin: 0%  
     
     a, i 
         color: red
@@ -46,6 +47,7 @@ nav
         transition:  color .6s
         font-size: 100%
         font-weight: bold
+        
     
         
        
@@ -72,10 +74,12 @@ nav
     .active
         color: #5917f3
     .fixed-top 
-        
-        top: 100px
-        right: 0
-        left: 0
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+  
+
     
 .shadow-bg
     background-color: #001429
@@ -89,21 +93,23 @@ header
     //nie ucieka nam tekst po stronie
     overflow: hidden
 
-    h1 
+    h1, btn
         
         padding: 10px
         text-transform: uppercase
-        font-size: 30px
+        font-size: 10px
+        color: #000000
     .hero-img
         position: relative  
         height: 100vh
         background-image: url(/img/bydgoszcz-418818_1920.jpg)
         background-position: 0px 0px
-        -webkit-filter: brightness(90%)
+        filter: brightness(75%)
         background-size: cover
         background-attachment: fixed
         z-index: 0
-   
+    
+
 
     
         
@@ -113,11 +119,14 @@ header
         justify-content: center
         align-items: center
         flex-direction: column
-        height: 68%
+        height: 98%
         text-align: center
+        h1
+            font-size: 20px
+            width: 20%
         p
-            padding: 10px
-            font-size: 24px
+            padding: 15px
+            font-size: 14px
 
 //about us
 
