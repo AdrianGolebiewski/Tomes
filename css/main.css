@@ -40,8 +40,9 @@ nav {
   -webkit-transition: background-color .5s;
   transition: background-color .5s;
   text-transform: uppercase;
-  max-width: 100%;
-  margin: 0%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 nav a, nav i {
@@ -49,12 +50,12 @@ nav a, nav i {
   text-decoration: none;
   -webkit-transition: color .6s;
   transition: color .6s;
-  font-size: 100%;
+  font-size: 20px;
   font-weight: bold;
 }
 
 nav a:hover {
-  color: #53190e;
+  color: #000000;
 }
 
 nav i {
@@ -105,6 +106,16 @@ header .hero-img {
   background-position: 0px 0px;
   -webkit-filter: brightness(75%);
           filter: brightness(75%);
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 0;
+}
+
+header .hero-img-price {
+  position: relative;
+  height: 100vh;
+  background-image: url(/img/work-5382501_1280.jpg);
+  background-position: 0 0;
   background-size: cover;
   background-attachment: fixed;
   z-index: 0;
