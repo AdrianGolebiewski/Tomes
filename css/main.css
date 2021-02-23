@@ -86,6 +86,10 @@ nav .fixed-top {
   background-color: #f7f7f7;
 }
 
+.prices {
+  height: 100vh;
+}
+
 header {
   color: #791919;
   overflow: hidden;
