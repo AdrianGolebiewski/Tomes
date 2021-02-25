@@ -108,6 +108,14 @@ nav .fixed-top {
   margin: 0 auto;
 }
 
+#prices .price-box {
+  margin: 20px 10px;
+  padding: 30px;
+  background-color: #fff;
+  -webkit-box-shadow: 5px 5px 5px black;
+          box-shadow: 5px 5px 5px black;
+}
+
 header {
   color: #791919;
   overflow: hidden;
@@ -125,9 +133,7 @@ header .hero-img {
   position: relative;
   height: 100vh;
   background-image: url(/img/bydgoszcz-418818_1920.jpg);
-  background-position: 0px 0px;
-  -webkit-filter: brightness(75%);
-          filter: brightness(75%);
+  background-position: center;
   background-size: cover;
   background-attachment: fixed;
   z-index: 0;
