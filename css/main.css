@@ -15,6 +15,11 @@ body {
   background-color: #272727;
 }
 
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
 .wrapper {
   max-width: 2556px;
   width: 80%;
@@ -34,6 +39,13 @@ body {
   margin-top: -83.35px;
   height: 83.35px;
   content: '';
+}
+
+.underline {
+  margin: 0 auto 40px;
+  width: 60px;
+  height: 4px;
+  background-color: red;
 }
 
 nav {
@@ -86,12 +98,14 @@ nav .fixed-top {
   background-color: #f7f7f7;
 }
 
-.prices {
-  height: 100vh;
+#prices .jumbotron {
+  background-color: #f9f9f9;
 }
 
-.prices .jumbotron {
-  height: 100vh;
+#prices .price-wrap {
+  max-width: 2560px;
+  width: 95%;
+  margin: 0 auto;
 }
 
 header {
