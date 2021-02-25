@@ -116,6 +116,15 @@ nav .fixed-top {
           box-shadow: 5px 5px 5px black;
 }
 
+#prices h3 {
+  color: black;
+  text-transform: uppercase;
+}
+
+#prices span {
+  font-weight: bold;
+}
+
 header {
   color: #791919;
   overflow: hidden;
@@ -131,7 +140,7 @@ header h1 {
 
 header .hero-img {
   position: relative;
-  height: 100vh;
+  height: 66vh;
   background-image: url(/img/bydgoszcz-418818_1920.jpg);
   background-position: center;
   background-size: cover;
