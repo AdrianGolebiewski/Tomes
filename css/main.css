@@ -90,6 +90,10 @@ nav .fixed-top {
   height: 100vh;
 }
 
+.prices .jumbotron {
+  height: 100vh;
+}
+
 header {
   color: #791919;
   overflow: hidden;
