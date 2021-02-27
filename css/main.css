@@ -98,31 +98,15 @@ nav .fixed-top {
   background-color: #f7f7f7;
 }
 
+#prices {
+  background-color: #f7f7f7;
+}
+
 #prices .jumbotron {
-  background-color: #f9f9f9;
-}
-
-#prices .price-wrap {
-  max-width: 2560px;
-  width: 85%;
-  margin: 0 auto;
-}
-
-#prices .price-box {
-  margin: 20px 10px;
-  padding: 30px;
-  background-color: #fff;
-  -webkit-box-shadow: 5px 5px 5px black;
-          box-shadow: 5px 5px 5px black;
-}
-
-#prices h3 {
-  color: black;
-  text-transform: uppercase;
-}
-
-#prices span {
-  font-weight: bold;
+  position: relative;
+  top: 200px;
+  left: auto;
+  background-color: #f7f7f7;
 }
 
 header {
