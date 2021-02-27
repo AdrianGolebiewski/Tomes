@@ -98,14 +98,14 @@ nav .fixed-top {
 }
 
 #prices {
-  background-color: #552727;
+  background-color: #f9f9f9;
 }
 
 #prices .jumbotron {
   position: relative;
   top: 200px;
   left: auto;
-  background-color: #5c0b0b;
+  background-color: #f9f9f9;
 }
 
 header {
