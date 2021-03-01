@@ -1,6 +1,8 @@
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
@@ -11,7 +13,8 @@ html {
 
 body {
   position: relative;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
+  background-color: #f9f9f9;
 }
 
 h2 {
@@ -37,7 +40,7 @@ h2 {
   display: block;
   margin-top: -83.35px;
   height: 83.35px;
-  content: '';
+  content: "";
 }
 
 .underline {
@@ -48,19 +51,20 @@ h2 {
 }
 
 nav {
-  -webkit-transition: background-color .5s;
-  transition: background-color .5s;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
   text-transform: uppercase;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
-nav a, nav i {
+nav a,
+nav i {
   color: #080808;
   text-decoration: none;
-  -webkit-transition: color .6s;
-  transition: color .6s;
+  -webkit-transition: color 0.6s;
+  transition: color 0.6s;
   font-size: 20px;
   font-weight: bold;
 }
@@ -102,7 +106,6 @@ nav .fixed-top {
 
 #prices .jumbotron {
   background-color: #f9f9f9;
-  height: 100vh;
 }
 
 #prices .jumbotron .wrapper {
@@ -116,11 +119,11 @@ nav .fixed-top {
   padding: 30px;
   background-color: #fff;
   -webkit-box-shadow: 5px 5px 5px rgba(156, 146, 146, 0.6);
-          box-shadow: 5px 5px 5px rgba(156, 146, 146, 0.6);
-  -webkit-transition: -webkit-transform .3s;
-  transition: -webkit-transform .3s;
-  transition: transform .3s;
-  transition: transform .3s, -webkit-transform .3s;
+  box-shadow: 5px 5px 5px rgba(156, 146, 146, 0.6);
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
 }
 
 #prices .jumbotron h2 {
@@ -175,15 +178,15 @@ header .hero-text {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   height: 98%;
   text-align: center;
 }
@@ -212,7 +215,7 @@ header .hero-text p {
   background-image: url(/img/bydgoszcz-418818_1920.jpg);
   background-position: 0px 0px;
   -webkit-filter: brightness(75%);
-          filter: brightness(75%);
+  filter: brightness(75%);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -231,11 +234,12 @@ header .hero-text p {
   text-align: center;
   background-color: #f7f7f7;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
-#services .jumbotron .container, #services .jumbotron .section-title {
+#services .jumbotron .container,
+#services .jumbotron .section-title {
   margin-bottom: 25px;
 }
 
@@ -278,8 +282,8 @@ header .hero-text p {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   color: #f7f7f7;
 }
 
