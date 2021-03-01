@@ -124,11 +124,15 @@ nav .fixed-top {
 
 #prices .jumbotron h2 {
   font-size: 34px;
-  margin-top: 80px;
+  margin-top: 50px;
 }
 
 #prices .jumbotron span {
   font-weight: bold;
+}
+
+#prices .jumbotron p {
+  font-size: 12px;
 }
 
 header {
