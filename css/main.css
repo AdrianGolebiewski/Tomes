@@ -112,7 +112,7 @@ nav .fixed-top {
 }
 
 #prices .jumbotron .price-box {
-  margin: 20px 10px;
+  margin: 80px 10px;
   padding: 30px;
   background-color: #fff;
   -webkit-box-shadow: 5px 5px 5px rgba(156, 146, 146, 0.6);
@@ -126,6 +126,10 @@ nav .fixed-top {
 #prices .jumbotron h2 {
   font-size: 34px;
   margin-top: 80px;
+}
+
+#prices .jumbotron span {
+  font-weight: bold;
 }
 
 header {
