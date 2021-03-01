@@ -1,161 +1,260 @@
 <!DOCTYPE html>
 <html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tomes Bydgoszcz Usługi Księgowe Tanio</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.2.0/mdb.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=latin-ext"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.2.0/mdb.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 576px)"
+      href="css/small.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 768px)"
+      href="css/medium.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 992px)"
+      href="css/large.css"
+    />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Frost Customs</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap&subset=latin-ext" rel="stylesheet">
+  <body data-spy="scroll" data-target="#navbar">
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+      <a class="navbar-brand" href="index.html">
+        <span class="blue-text">Tomes </span></a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link" href="price.html">Cennik</a>
 
-    <link rel="stylesheet" href="css/style.css">
-    <script src="https://kit.fontawesome.com/327a0d490c.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
-        <div class="container">
-            <a class="navbar-brand" href="#"><i class="fas fa-icicles text-primary"></i> Fro<span
-                    class="text-primary">st</span> Customs</a>
-            <button class="navbar-toggler border-0" type="button" data-toggle="collapse"
-                data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <i class="fas fa-bars px-4"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ml-auto">
-                    <a class="nav-item nav-link" href="index.html">Home</a>
-                    <a class="nav-item nav-link" href="aboutus.html">O firmie</a>
-                    <a class="nav-item nav-link" href="services.html">Usługi</a>
-                    <a class="nav-item nav-link" href="projects.html">Projekty</a>
-                    <a class="nav-item nav-link active" href="#">Kontakt <span class="sr-only">(current)</span></a>
-                </div>
-            </div>
+          <a class="nav-item nav-link" href="contact.html">kontakt</a>
         </div>
+      </div>
     </nav>
 
     <main>
-
-        <section class="top-hero contact-hero">
-            <div class="hero-shadow"></div>
-            <p class="top-hero-text text-light">kontakt</p>
-        </section>
-
-        <section class="contact py-5">
-            <div class="container">
-
-                <div class="text-center py-5">
-                    <p class="display-3">Napisz do nas!</p>
-                    <p class="additional-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-5 col-lg-4">
-                        <div class="border p-5 mb-4 text-center">
-                            <h2>dane kontaktowe</h2>
-                            <p>Lorem ipsum dolor sit amet.</p>
-                            <h3 class="mt-4">adres</h3>
-                            <p>ul. Długa 0</p>
-                            <p>00-000 Kraków</p>
-                            <h3 class="mt-4">telefon</h3>
-                            <p>+48 000 000 000</p>
-                            <h3 class="mt-4">e-mail</h3>
-                            <p>mail@mail.pl</p>
-                            <div class="contact-logo mt-5 pt-4 mb-n3 border-top">
-                                <i class="fas fa-icicles text-primary"></i> Fro<span class="text-primary">st</span>
-                                Customs
+      <section class="contact" style="height: 100vh;">
+        <div class="wrapper">
+          <div class="row justify-content-center">
+            <div class="col-md-6 text-center mb-5" style="margin-top: 100px; height;">
+              <h2 class="heading-section">Contact Form #10</h2>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-11">
+              <div class="wrapper">
+                <div class="row no-gutters justify-content-between">
+                  <div class="col-lg-6 d-flex align-items-stretch">
+                    <div class="info-wrap w-100 p-5">
+                      <h3 class="mb-4">Contact us</h3>
+                      <div class="dbox w-100 d-flex align-items-start">
+                        <div
+                          class="icon d-flex align-items-center justify-content-center"
+                        >
+                          <span class="fa fa-map-marker"></span>
+                        </div>
+                        <div class="text pl-4">
+                          <p>
+                            <span>Adres:</span> Obrońców Bydgoszczy 12, 85-054 Bydgoszcz
+                          </p>
+                        </div>
+                      </div>
+                      <div class="dbox w-100 d-flex align-items-start">
+                        <div
+                          class="icon d-flex align-items-center justify-content-center"
+                        >
+                          <span class="fa fa-phone"></span>
+                        </div>
+                        <div class="text pl-4">
+                          <p>
+                            <span>Telefon:</span>
+                            <a href="tel://1234567920">+ 1235 2355 98</a>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="dbox w-100 d-flex align-items-start">
+                        <div
+                          class="icon d-flex align-items-center justify-content-center"
+                        >
+                          <span class="fa fa-paper-plane"></span>
+                        </div>
+                        <div class="text pl-4">
+                          <p>
+                            <span>Email:</span>
+                            <a href="mailto:info@Tomes.com"
+                              >info@Tomes.com</a
+                            >
+                          </p>
+                        </div>
+                      </div>
+                      <div class="dbox w-100 d-flex align-items-start">
+                       
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-5">
+                    <div class="contact-wrap w-100 p-md-5 p-4">
+                      <h3 class="mb-4">Bądzmy w kontakcie</h3>
+                      <div id="form-message-warning" class="mb-4"></div>
+                      <div id="form-message-success" class="mb-4">
+                        
+                      </div>
+                      <form
+                        method="POST"
+                        id="contactForm"
+                        name="contactForm"
+                        novalidate="novalidate"
+                      >
+                        <div class="row">
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <input
+                                type="text"
+                                class="form-control"
+                                name="name"
+                                id="name"
+                                placeholder="Imię"
+                              />
                             </div>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <input
+                                type="email"
+                                class="form-control"
+                                name="email"
+                                id="email"
+                                placeholder="Email"
+                              />
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <input
+                                type="text"
+                                class="form-control"
+                                name="subject"
+                                id="subject"
+                                placeholder="Temat"
+                              />
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <textarea
+                                name="message"
+                                class="form-control"
+                                id="message"
+                                cols="30"
+                                rows="5"
+                                placeholder="Wiadomosc"
+                              ></textarea>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <input
+                                type="submit"
+                                value="Send Message"
+                                class="btn btn-primary"
+                              />
+                              <div class="submitting"></div>
+                            </div>
+                          </div>
                         </div>
+                      </form>
                     </div>
-                    <div class="col-md-7 col-lg-8">
-                        <div class="border p-5 text-center">
-                            <h2>formularz kontaktowy</h2>
-                            <form class="mt-5">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group mb-4">
-                                            <label>Imię i nazwisko</label>
-                                            <input type="text" class="form-control">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group mb-4">
-                                            <label>Adres mailowy</label>
-                                            <input type="text" class="form-control">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group mb-4">
-                                            <label>Jaki posiadasz samochód?</label>
-                                            <select class="form-control">
-                                                <option selected></option>
-                                                <option>Sportowy</option>
-                                                <option>Zabytkowy</option>
-                                                <option>Szybki</option>
-                                                <option>Egzotyczny</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group mb-4">
-                                            <label>W jakiej sprawie piszesz?</label>
-                                            <select class="form-control">
-                                                <option selected></option>
-                                                <option>Tuning mechaniczny</option>
-                                                <option>Tuning wizualny</option>
-                                                <option>Car Audio</option>
-                                                <option>Pakiet All-in-One</option>
-                                                <option>Inne</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <label>Wpisz treść wiadomości</label>
-                                        <textarea class="form-control" rows="6"></textarea>
-                                    </div>
-                                    <div class="col mt-3">
-                                        <a href = "mailto:agadek6@gmail.com?subject = Feedback&body = Message">
-                    Send Feedback
-                    </a>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
-        </section>
-
-        <section class="contact-map pb-5">
-            <div class="container d-flex flex-column align-items-center">
-                <p class="display-4 py-4">Mapa dojazdu</p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d81987.3762326356!2d19.93483409165037!3d50.046854813187295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471644c0354e18d1%3A0xb46bb6b576478abf!2zS3Jha8Ozdw!5e0!3m2!1spl!2spl!4v1580526450994!5m2!1spl!2spl" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-            </div>
-        </section>
-
-
+          </div>
+        </div>
+       
+      </section>
     </main>
-
-    <footer class="bg-dark text-light">
-        <p class="py-5 px-3 mb-0 text-center">2020 &copy; Copyright <i class="ml-3 fas fa-icicles text-primary"></i>
-            Frost Customs</p>
+    <footer>
+      <p>&copy; 2021 Tomes</p>
     </footer>
 
+    <!-- MDB -->
+    
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.2.0/mdb.min.js"
+    ></script>
 
-
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-    </script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/Js/jquery.waypoints.min"></script>
+    <scripts src="./Js/animation.js"></scripts>
+    <script src="slick/slick.min.js"></script>
+    <script src="./Js/main.js"></script>
+  </body>
 </html>
